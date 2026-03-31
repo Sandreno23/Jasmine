@@ -16,7 +16,7 @@ const Home = () => {
     const [Active, SetActive] = useState(true)
 
     useEffect(() => {
-        let datetxt = "19 Nov";
+        let datetxt = "1 April";
         let charArrDate = datetxt.split('');
         let currentIndex = 0;
         let date__of__birth = document.querySelector(".date__of__birth span");
@@ -95,7 +95,7 @@ const Home = () => {
                                     Click Here Jasmine
                                 </div>
                             </button>
-                            <div id="FromRexon">
+                            <div id="FromSandreno">
                                 <Link to={'/love-letter'} className="flex items-center gap-2 md:text-[1rem] text-sm">
                                     <svg className='w-7 h-7' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
                                         <path fill="#fff" d="M65.086 55.5H6.878A2.877 2.877 0 0 1 4 52.623V17.248A2.25 2.25 0 0 1 6.248 15h59.446A2.306 2.306 0 0 1 68 17.306v35.28a2.914 2.914 0 0 1-2.914 2.914" />

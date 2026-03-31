@@ -69,10 +69,11 @@ const BookCanvas = ({ active, setActive }) => {
                         {/* Swapping back to H2 to match the original CSS targeting */}
                         <div className="card2-message-text italic">
                             <article style={{ marginBottom: '8px' }}>Happy Birthday, Jasmine ❤️</article>
-                            <article style={{ marginBottom: '10px' }}>From the moment we met, something in my life shifted—like the universe quietly guiding me toward someone meant for me.You brought warmth into the parts of me I didn’t even know were cold, And you expanded my days with a dimension I can only call my own.</article>
-                            <article style={{ marginBottom: '10px' }}>On your birthday, I just want you to know this: I want you with me in every chapter, every storm, every sunshine, every tomorrow. No matter what comes, I’ll be on your side—always. I’ll choose you, protect you, stand with you, and love you in ways that remind you you’re never alone.</article>
+                            <article style={{ marginBottom: '10px' }}>
+From the first time we met, it was probably a little awkward and uncomfortable. However, I tried to bestfriend you, and we eventually became friends.</article>
+                            <article style={{ marginBottom: '10px' }}>On your birthday, I just want you to know this: No matter what comes, I'll be on your side—always. I'll choose you, protect you, stand with you in ways that remind you you're never alone.</article>
                             <article style={{ marginBottom: '10px' }}>You’re not just another year older today… <br />
-                                you’re the reason my life feels softer, brighter, and endlessly worth living. Happy Birthday.</article>
+                                 Happy Birthday.</article>
                         </div>
 
                         <div className="card2-decoration"></div> {/* Decoration */}
@@ -91,7 +92,7 @@ const BookCanvas = ({ active, setActive }) => {
                         <div className="confetti-dots"></div>
 
                         <p className="signature">
-                            Your Best Friend, Rexon
+                            Your Best Friend, Sandreno
                         </p>
                     </div>
                 </div>
